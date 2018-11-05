@@ -1,0 +1,23 @@
+{
+  "name": "cmd-dj-example",
+  "version": "1.0.0",
+  "description": "cmd-dj example bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirhypernova/cmd-dj-example.git"
+  },
+  "author": "SirHyperNova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sirhypernova/cmd-dj-example/issues"
+  },
+  "homepage": "https://github.com/sirhypernova/cmd-dj-example#readme",
+  "dependencies": {
+    "cmd-dj": "^1.2.4",
+    "microtime": "^2.1.8"
+  }
+}
