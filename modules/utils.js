@@ -7,5 +7,8 @@ module.exports = {
             this.scanChecks(path.resolve(__dirname,'utils','checks'));
             console.log('Loaded utils module');
         }
+    },
+    modifier(cmd) {
+        cmd.checks.push('utils.guild');
     }
 }
